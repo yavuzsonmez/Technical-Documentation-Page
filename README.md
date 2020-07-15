@@ -1,3 +1,3 @@
-# freecodecamp : Technical DOcumentation Page
+# freecodecamp : Technical Documentation Page
 
 **Stack: Html, Css**
