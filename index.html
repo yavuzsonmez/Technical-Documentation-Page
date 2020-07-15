@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<main id="main-doc">
+    <section class="main-section" id="Qu'est-ce_que_le_Javascript_?">
+        <header>Qu'est-ce que le Javascript ?</header>
+        <img id="picjs" src="https://zupimages.net/up/19/49/n1gv.png" alt="Javascript Logo"><br>
+        <p>" Le JavaScript ou JS, inventé Brendan Eich et développé par Netscape, fait son apparition en 1995, sous le nom de LiveScript, dans le but de dynamiser les pages web. C'est un language de programmation dont l'utilisation s'est aujourd'hui largement
+            répandue. "</p>
+        <code>alert( 'Hello, world!' );</code><br>
+        <p><i>un exemple de code en Javascript.</i> </p>
+    </section><br>
+    <section class="main-section" id="Particularités_du_language">
+        <header>Particularités du language</header>
+
+        <p>" JavaScript est un langage de script léger, orienté objet, principalement connu comme le langage de script des pages web. Mais il est aussi utilisé dans de nombreux environnements extérieurs aux navigateurs web tels que Node.js. Le code JavaScript est interprété ou compilé à la volée (JIT). C'est un langage qui permet de programmer suivant plusieurs paradigmes de programmation : fonctionnelle, impérative et orientée objet. </p>
+        <code>var result = "";<br>
+var i = 0;<br>
+
+do {<br>
+  i = i + 1;<br>
+  result = result + i;<br>
+} while (i < 5);<br>
+
+console.log(result);</code>
+        <p><i>boucle "do .. while" basique en JavaScript</i></p><br>
+        <p>Avec ES6, Javascript à développé de vraie particularité dans la syntaxe du language ce qui permet d'écrire plus simplement ou de manière plus concise le code. Ce qui suit est un exemple de code écrit avec ES5 (l'ancienne norme Javascript, comparé
+            à l'ES6 nouvelle norme :</p>
+        <code>function greetings (name) {<br>
+ return 'hello ' + name<br>
+}</code><br>
+        <p><i>Voici un morceau de code en ES5.</i></p>
+        <code>const greetings = name => `hello ${name}`;</code>
+        <p><i>La même chose écrite en ES6.</i></p>
+    </section><br>
+    <section class="main-section" id="JavaScript_&_Java">
+        <header>Javascript & Java</header>
+
+        <img id="picjava" src="https://zupimages.net/up/19/49/7ko7.png" alt="Java Logo">
+        <p>" Il ne faut absolument pas confondre les deux! Le Java est un tout autre language. Pour citer quelques différences, tandis que le Javascript est un language non compilé, intégré directement dans le contenu HTML, dont l'extension des fichiers
+            source est .js et nécéssitant peu de mémoire; Le Java quant à lui est un language orienté objet, compilé, qui utilise les classes et a besoin de plus de mémoires et dont l'extension des fichiers sources est .java "</p>
+        <code>int maVariable;<br>
+        maVaariable = 5687;
+      </code>
+        <p><i>déclaration d'une variable de type int en Java, le Javascript ne nécéssite pas de déclarer le type de la variable.</i></p>
+    </section><br>
+
+    <section class="main-section" id="Node.js">
+        <header>Node.js</header>
+        <img id="picnode" src="https://zupimages.net/up/19/49/gwpa.png" alt="Node.JS Logo">
+        <p>" Node.js est une plateforme de développement Javascript. Ce n'est pas un serveur, ce n'est pas un framework, c'est juste le langage Javascript avec des bibliothèques permettant de réaliser des actions comme écrire sur la sortie standard, ouvrir/fermer
+            des connections réseau ou encore créer un fichier. " En résumé Node.js sert à faire du développement back-end avec Javascript.</p>
+        <code>var http = require('http');<br>
+
+http.createServer(function (req, res) {<br>
+  res.writeHead(200, {'Content-Type': 'text/plain'});<br>
+  res.end('Hello World!');<br>
+}).listen(8080);</code>
+        <p><i>Exemple de code avec l'outil Node.js</i></p>
+    </section><br>
+    <section class="main-section" id="Références">
+        <header>Références</header>
+        <p>Ressources</p>
+        <ol>
+            <li>MDN, documentation de Mozilla</li>
+            <li>Wikipedia</li>
+            <li>WaytoLearnX</li>
+            <li>w3schools</li>
+            <li>OpenClassroom</li>
+            <li>Makina-Corpus</ol>
+
+    </section><br>
+    <nav id="navbar">
+        <header>Javascript & Node.js</header>
+        <ul>
+            <li><a class="nav-link" href="#Qu'est-ce_que_le_Javascript_?">Qu'est-ce que le Javascript ?</a></li>
+            <li><a class="nav-link" href="#Particularités_du_language">Particularités du language</a></li>
+            <li><a class="nav-link" href="#JavaScript_&_Java">Javascript & Java</a></li>
+
+            <li><a class="nav-link" href="#Node.js">Node.js</a></li>
+            <li><a class="nav-link" href="#Références">Références</a></li>
+    </nav>
+
+</main>
+<html>

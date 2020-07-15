@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet');
+html {
+    text-align: center;
+    font-family: "Francois One";
+}
+
+main {
+    margin-left: 20%;
+}
+
+
+p {
+    font-size: 18px;
+    font-family: 'Exo 2';
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #215732;
+    color: white;
+    height: 100%;
+    width: 18%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+a li {
+    color: black;
+}
+
+ul li {
+    padding-top: 40px;
+    margin-left: -40px;
+    border-bottom: 1px solid white;
+}
+
+ol li {
+    list-style-type: none;
+    margin-bottom: px;
+    font-family: times;
+}
+
+@media all and (max-device-width: 480px) {
+    nav {
+        overflow-y: scroll;
+    }
+}
+
+header {
+    display: inline;
+    font-size: 24px;
+}
+
+#picjs {
+    margin-right: -100px;
+    padding-left: 4%;
+    width: 5%;
+}
+
+#picjava {
+    margin-right: -100px;
+    margin-bottom: -25px;
+    padding-left: 4%;
+    width: 8%;
+}
+
+#picnode {
+    margin-bottom: -15px;
+    padding-left: 4%;
+    width: 8%;
+}
+
+#navbar {
+    padding-top: 25px;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+header:hover {
+    color: orange;
+}
